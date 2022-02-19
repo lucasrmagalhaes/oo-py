@@ -53,7 +53,7 @@ conta.set_limite(2000.0)
 conta.get_limite()
 ```
 
-<h4 align="center">&emsp;Conta</h4>
+<h4 align="center">&emsp;Cliente</h4>
 
 ```python
 from cliente import Cliente
