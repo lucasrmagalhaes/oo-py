@@ -53,6 +53,22 @@ conta.set_limite(2000.0)
 conta.get_limite()
 ```
 
+```python
+Conta.codigo_banco()
+```
+
+```python
+codigos = Conta.codigos_bancos()
+```
+
+```python
+codigos
+```
+
+```python
+codigos['BB']
+```
+
 <h4 align="center">&emsp;Cliente</h4>
 
 ```python
