@@ -1,4 +1,4 @@
-### Python: Orientação a Objetos
+<h3 align="center">Python: Orientação a Objetos</h3>
 
 <p align="justify">
     &emsp;Uma classe é uma especificação de um tipo, definindo valores e comportamentos. <br>
@@ -25,4 +25,16 @@ conta.deposita(60.0)
 
 ```python
 conta.saca(20.0)
+```
+
+```python
+from datas import Data
+```
+
+```python
+d = Data(19, 2, 2022)
+```
+
+```python
+d.formatada()
 ```
