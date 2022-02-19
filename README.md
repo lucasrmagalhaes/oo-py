@@ -29,6 +29,14 @@ conta.deposita(60.0)
 conta.saca(20.0)
 ```
 
+```python
+conta2 = Conta(321, "Fulano", 50.0, 1000.0)
+```
+
+```python
+conta.transfere(10.0, conta2)
+```
+
 <h4 align="center">&emsp;Desafio: Data</h4>
 
 ```python
@@ -60,3 +68,10 @@ r.area = 7
 ```python
 r.obter_area()
 ```
+
+#### SOLID
+- S - Single responsibility principle
+- O - Open/closed principle
+- L - Liskov substitution principle
+- I - Interface segregation principle
+- D - Dependency inversion principle
