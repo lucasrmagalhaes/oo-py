@@ -10,7 +10,7 @@
 <h4 align="center">&emsp;Conta</h4>
 
 ```python
-from conta import Conta
+from oo.conta import Conta
 ```
 
 ```python
@@ -72,7 +72,7 @@ codigos['BB']
 <h4 align="center">&emsp;Cliente</h4>
 
 ```python
-from cliente import Cliente
+from oo.cliente import Cliente
 ```
 
 ```python
@@ -90,7 +90,7 @@ cliente.nome
 <h4 align="center">&emsp;Desafio: Data</h4>
 
 ```python
-from datas import Data
+from oo.datas import Data
 ```
 
 ```python
@@ -104,7 +104,7 @@ d.formatada()
 <h4 align="center">&emsp;Desafio: Retangulo</h4>
 
 ```python
-from retangulo import Retangulo
+from oo.retangulo import Retangulo
 ```
 
 ```python
