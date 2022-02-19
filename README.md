@@ -1,4 +1,4 @@
-<h3 align="center">Python: Orientação a Objetos</h3>
+<h3 align="center">Python e Orientação a Objetos</h3>
 
 <p align="justify">
     &emsp;Uma classe é uma especificação de um tipo, definindo valores e comportamentos. <br>
