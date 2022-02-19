@@ -53,6 +53,24 @@ conta.set_limite(2000.0)
 conta.get_limite()
 ```
 
+<h4 align="center">&emsp;Conta</h4>
+
+```python
+from cliente import Cliente
+```
+
+```python
+cliente = Cliente("lucas")
+```
+
+```python
+cliente.nome = "fulano"
+```
+
+```python
+cliente.nome
+```
+
 <h4 align="center">&emsp;Desafio: Data</h4>
 
 ```python
