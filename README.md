@@ -37,6 +37,22 @@ conta2 = Conta(321, "Fulano", 50.0, 1000.0)
 conta.transfere(10.0, conta2)
 ```
 
+```python
+conta.get_saldo()
+```
+
+```python
+conta.get_titular()
+```
+
+```python
+conta.set_limite(2000.0)
+```
+
+```python
+conta.get_limite()
+```
+
 <h4 align="center">&emsp;Desafio: Data</h4>
 
 ```python
