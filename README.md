@@ -10,7 +10,7 @@
 <h4 align="center">&emsp;Conta</h4>
 
 ```python
-from oo.conta import Conta
+from introducao_a_orientacao_a_objetos.conta import Conta
 ```
 
 ```python
@@ -72,7 +72,7 @@ codigos['BB']
 <h4 align="center">&emsp;Cliente</h4>
 
 ```python
-from oo.cliente import Cliente
+from introducao_a_orientacao_a_objetos.cliente import Cliente
 ```
 
 ```python
@@ -90,7 +90,7 @@ cliente.nome
 <h4 align="center">&emsp;Desafio: Data</h4>
 
 ```python
-from oo.datas import Data
+from introducao_a_orientacao_a_objetos.datas import Data
 ```
 
 ```python
@@ -104,7 +104,7 @@ d.formatada()
 <h4 align="center">&emsp;Desafio: Retangulo</h4>
 
 ```python
-from oo.retangulo import Retangulo
+from introducao_a_orientacao_a_objetos.retangulo import Retangulo
 ```
 
 ```python
