@@ -42,3 +42,21 @@ d = Data(19, 2, 2022)
 ```python
 d.formatada()
 ```
+
+<h4 align="center">&emsp;Desafio: Retangulo</h4>
+
+```python
+from retangulo import Retangulo
+```
+
+```python
+r = Retangulo(7, 6)
+```
+
+```python
+r.area = 7
+```
+
+```python
+r.obter_area()
+```
