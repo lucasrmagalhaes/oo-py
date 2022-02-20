@@ -35,11 +35,9 @@ class Serie(Programa):
 vingadores = Filme('vingadores - guerra infinita', 2018, 160)
 vingadores.dar_like()
 
-print(f'Nome: {vingadores.nome} - Ano: {vingadores.ano}'
-      f' - Temporadas: {vingadores.duracao} - Likes: {vingadores.likes}')
+print(f'{vingadores.nome} - {vingadores.duracao}: {vingadores.likes}')
 
 dexter = Serie('dexter', 2008, 9)
 dexter.dar_like()
 
-print(f'Nome: {dexter.nome} - Ano: {dexter.ano}'
-      f' - Temporadas: {dexter.temporadas} - Likes: {dexter.likes}')
+print(f'{dexter.nome} - {dexter.temporadas}: {dexter.likes}')
