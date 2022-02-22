@@ -19,28 +19,31 @@ class Programa:
     def dar_like(self):
         self._likes += 1
 
+    def imprime(self):
+        print(f'{self._nome} - {self.ano} - {self._likes} like(s)')
+
 class Filme(Programa):
     def __init__(self, nome, ano, duracao):
         super().__init__(nome, ano)
         self.duracao = duracao
 
+    def imprime(self):
+        print(f'{self._nome} - {self.ano} - {self.duracao} minutos - {self._likes} like(s)')
+
 class Serie(Programa):
     def __init__(self, nome, ano, temporadas):
         super().__init__(nome, ano)
         self.temporadas = temporadas
+    
+    def imprime(self):
+        print(f'{self._nome} - {self.ano} - {self.temporadas} temporadas - {self._likes} like(s)')
 
 vingadores = Filme('vingadores - guerra infinita', 2018, 160)
 vingadores.dar_like()
 
-print(f'{vingadores.nome} - {vingadores.duracao}: {vingadores.likes}')
-
 dexter = Serie('dexter', 2008, 9)
-dexter.dar_like()
-
-print(f'{dexter.nome} - {dexter.temporadas}: {dexter.likes}')
 
 filmes_e_series = [vingadores, dexter]
 
 for programa in filmes_e_series:
-    detalhes = programa.duracao if hasattr(programa, 'duracao') else programa.temporadas
-    print(f'{programa.nome} - {detalhes} D - {programa.likes}')
+    programa.imprime()
