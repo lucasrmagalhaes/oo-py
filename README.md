@@ -128,3 +128,45 @@ r.obter_area()
 
 #### title
 Pega a primeira letra de cada palavra e coloca em maiúsculo.
+
+#### Python Data Model
+<pre>
+<strong>Inicialização</strong>   
+__init__
+
+<strong>Representação</strong> 
+__str__   
+__repr__
+
+<strong>Container, sequência</strong>    
+__contains__    
+__iter__    
+__len__     
+__getitem__
+
+<strong>Numéricos</strong>   
+__add__     
+__sub__     
+__mul__     
+__mod__
+</pre>
+
+<pre>
+<strong>Inicialização</strong>   
+obj = Novo()
+
+<strong>Representação</strong> 
+print(obj)
+str(obj)
+repr(obj)
+
+<strong>Container, sequência</strong>    
+len(obj)
+item in obj
+for i in obj
+obj[2:3]
+
+<strong>Numéricos</strong>   
+obj + outro_obj
+obj * obj
+</pre>
