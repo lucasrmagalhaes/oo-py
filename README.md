@@ -1,16 +1,18 @@
 <h3 align="center">Python e Orientação a Objetos</h3>
 
-<p align="left">
-    <a href="#conta">&emsp;Conta</a> <br>
-    <a href="#cliente">&emsp;Cliente</a> <br>
-    <a href="#desafio_data">&emsp;Desafio: Data</a> <br>
-    <a href="#desafio_retangulo">&emsp;Desafio: Retângulo</a> <br>
-    <a href="#solid">&emsp;SOLID</a> <br>
-    <a href="#data_model">&emsp;Data Model</a> <br>
-    <a href="#anotacoes">&emsp;Anotações</a>
+<p align="center">
+    <a href="#conta">Conta</a> <br>
+    <a href="#cliente">Cliente</a> <br>
+    <a href="#desafio_data">Desafio: Data</a> <br>
+    <a href="#desafio_retangulo">Desafio: Retângulo</a> <br>
+    <a href="#solid">SOLID</a> <br>
+    <a href="#data_model">Data Model</a> <br>
+    <a href="#anotacoes">Anotações</a>
 </p>
 
-<h4 id="conta" align="center">Conta</h4>
+<hr>
+
+<h3 id="conta" align="center">Conta</h3>
 
 ```python
 from introducao_a_orientacao_a_objetos.conta import Conta
@@ -72,7 +74,9 @@ codigos
 codigos['BB']
 ```
 
-<h4 id="cliente" align="center">Cliente</h4>
+<hr>
+
+<h3 id="cliente" align="center">Cliente</h3>
 
 ```python
 from introducao_a_orientacao_a_objetos.cliente import Cliente
@@ -90,7 +94,9 @@ cliente.nome = "fulano"
 cliente.nome
 ```
 
-<h4 id="desafio_data" align="center">Desafio: Data</h4>
+<hr>
+
+<h3 id="desafio_data" align="center">Desafio: Data</h3>
 
 ```python
 from introducao_a_orientacao_a_objetos.datas import Data
@@ -104,7 +110,9 @@ d = Data(19, 2, 2022)
 d.formatada()
 ```
 
-<h4 id="desafio_retangulo" align="center">Desafio: Retângulo</h4>
+<hr>
+
+<h3 id="desafio_retangulo" align="center">Desafio: Retângulo</h3>
 
 ```python
 from introducao_a_orientacao_a_objetos.retangulo import Retangulo
@@ -122,7 +130,9 @@ r.area = 7
 r.obter_area()
 ```
 
-<h4 id="solid" align="center">SOLID</h4>
+<hr>
+
+<h3 id="solid" align="center">SOLID</h3>
 
 <p align="left">
     S - Single responsibility principle <br>
@@ -132,7 +142,9 @@ r.obter_area()
     D - Dependency inversion principle
 </p>
 
-<h4 id="data_model" align="center">Data Model</h4>
+<hr>
+
+<h3 id="data_model" align="center">Data Model</h3>
 
 <pre>
 <strong>Inicialização</strong>   
@@ -175,7 +187,11 @@ obj + outro_obj
 obj * obj
 </pre>
 
-<p id="anotacoes" align="justify">
+<hr>
+
+<h3 id="anotacoes" align="center">Anotações</h3>
+
+<p align="justify">
     &emsp;Uma classe é uma especificação de um tipo, definindo valores e comportamentos. <br>
     &emsp;Um objeto é uma instância de uma classe onde podemos definir valores para seus atributos. <br>
     &emsp;Uma boa analogia é considerar a classe como a receita para a criação de algum prato; por exemplo, um delicioso bolo de cenoura. <br>
