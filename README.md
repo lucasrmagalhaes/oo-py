@@ -1,13 +1,25 @@
 <h3 align="center">Python e Orientação a Objetos</h3>
 
-<p align="justify">
+<ol>
+    <li><a href="#anotacoes">Anotações</a></li>
+    <li><a href="#conta">Conta</a></li>
+    <li><a href="#cliente">Cliente</a></li>
+    <li><a href="#desafio_data">Desafio Data</a></li>
+    <li><a href="#desafio_retangulo">Desafio Retangulo</a></li>
+    <li><a href="#solid">SOLID</a></li>
+    <li><a href="#title">title</a></li>
+    <li><a href="#data_model">Data Model</a></li>
+    <li><a href="#abc"></a>ABC</li>
+</ol>
+
+<p id="anotacoes" align="justify">
     &emsp;Uma classe é uma especificação de um tipo, definindo valores e comportamentos. <br>
     &emsp;Um objeto é uma instância de uma classe onde podemos definir valores para seus atributos. <br>
     &emsp;Uma boa analogia é considerar a classe como a receita para a criação de algum prato; por exemplo, um delicioso bolo de cenoura. <br>
     &emsp;Os atributos são as características que especificam uma classe.
 </p>
 
-<h4 align="center">Conta</h4>
+<h4 id="conta" align="center">Conta</h4>
 
 ```python
 from introducao_a_orientacao_a_objetos.conta import Conta
@@ -69,7 +81,7 @@ codigos
 codigos['BB']
 ```
 
-<h4 align="center">&emsp;Cliente</h4>
+<h4 id="cliente" align="center">Cliente</h4>
 
 ```python
 from introducao_a_orientacao_a_objetos.cliente import Cliente
@@ -87,7 +99,7 @@ cliente.nome = "fulano"
 cliente.nome
 ```
 
-<h4 align="center">&emsp;Desafio: Data</h4>
+<h4 id="desafio_data" align="center">Desafio: Data</h4>
 
 ```python
 from introducao_a_orientacao_a_objetos.datas import Data
@@ -101,7 +113,7 @@ d = Data(19, 2, 2022)
 d.formatada()
 ```
 
-<h4 align="center">&emsp;Desafio: Retangulo</h4>
+<h4 id="desafio_retangulo" align="center">&emsp;Desafio: Retangulo</h4>
 
 ```python
 from introducao_a_orientacao_a_objetos.retangulo import Retangulo
@@ -119,19 +131,21 @@ r.area = 7
 r.obter_area()
 ```
 
-<h4 align="center">SOLID</h4>
+<h4 id="solid" align="center">SOLID</h4>
 
-- S - Single responsibility principle
-- O - Open/closed principle
-- L - Liskov substitution principle
-- I - Interface segregation principle
-- D - Dependency inversion principle
+<p align="left">
+    S - Single responsibility principle <br>
+    O - Open/closed principle <br>
+    L - Liskov substitution principle <br>
+    I - Interface segregation principle <br>
+    D - Dependency inversion principle
+</p>
 
-<h4 align="center">title</h4>
+<h4 id="title" align="center">title</h4>
 
 Pega a primeira letra de cada palavra e coloca em maiúsculo.
 
-<h4 align="center">Data Model</h4>
+<h4 id="data_model" align="center">Data Model</h4>
 
 <pre>
 <strong>Inicialização</strong>   
@@ -174,4 +188,4 @@ obj + outro_obj
 obj * obj
 </pre>
 
-<h4 align="left">ABC - Abstract Base Classes</h4>
+<h4 id="abc" align="left">ABC - Abstract Base Classes</h4>
