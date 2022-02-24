@@ -1,16 +1,17 @@
 <h3 align="center">Python e Orientação a Objetos</h3>
 
-<ol>
+<ul>
     <li><a href="#anotacoes">Anotações</a></li>
     <li><a href="#conta">Conta</a></li>
     <li><a href="#cliente">Cliente</a></li>
-    <li><a href="#desafio_data">Desafio Data</a></li>
-    <li><a href="#desafio_retangulo">Desafio Retangulo</a></li>
+    <li><a href="#desafio_data">Desafio: Data</a></li>
+    <li><a href="#desafio_retangulo">Desafio: Retângulo</a></li>
     <li><a href="#solid">SOLID</a></li>
     <li><a href="#title">title</a></li>
     <li><a href="#data_model">Data Model</a></li>
-    <li><a href="#abc"></a>ABC</li>
-</ol>
+    <li><a href="#abc">ABC</a></li>
+    <li><a href="#mro">MRO</a></li>
+</ul>
 
 <p id="anotacoes" align="justify">
     &emsp;Uma classe é uma especificação de um tipo, definindo valores e comportamentos. <br>
@@ -113,7 +114,7 @@ d = Data(19, 2, 2022)
 d.formatada()
 ```
 
-<h4 id="desafio_retangulo" align="center">&emsp;Desafio: Retangulo</h4>
+<h4 id="desafio_retangulo" align="center">Desafio: Retângulo</h4>
 
 ```python
 from introducao_a_orientacao_a_objetos.retangulo import Retangulo
@@ -189,3 +190,4 @@ obj * obj
 </pre>
 
 <h4 id="abc" align="left">ABC - Abstract Base Classes</h4>
+<h4 id="mro" align="left">MRO - Method Resolution Order</h4>
