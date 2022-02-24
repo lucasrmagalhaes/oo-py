@@ -1,4 +1,6 @@
-class Programa:
+from abc import ABCMeta, abstractmethod 
+
+class Programa(metaclass = ABCMeta):
     def __init__(self, nome, ano):
         self._nome = nome.title()
         self.ano = ano
@@ -24,6 +26,10 @@ class Programa:
 
     def __str__(self):
         return f'{self._nome} - {self.ano} - {self._likes} like(s)'
+
+    @abstractmethod 
+    def __str__(self): 
+        pass
 
 class Filme(Programa):
     def __init__(self, nome, ano, duracao):
