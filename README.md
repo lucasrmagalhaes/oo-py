@@ -1,12 +1,12 @@
 <h3 align="center">Python e Orientação a Objetos</h3>
 
 <p align="left">
-    <a href="#conta">&emsp;Conta</a>
-    <a href="#cliente">&emsp;Cliente</a>
-    <a href="#desafio_data">&emsp;Desafio: Data</a>
-    <a href="#desafio_retangulo">&emsp;Desafio: Retângulo</a>
-    <a href="#solid">&emsp;SOLID</a>
-    <a href="#data_model">&emsp;Data Model</a>
+    <a href="#conta">&emsp;Conta</a> <br>
+    <a href="#cliente">&emsp;Cliente</a> <br>
+    <a href="#desafio_data">&emsp;Desafio: Data</a> <br>
+    <a href="#desafio_retangulo">&emsp;Desafio: Retângulo</a> <br>
+    <a href="#solid">&emsp;SOLID</a> <br>
+    <a href="#data_model">&emsp;Data Model</a> <br>
     <a href="#anotacoes">&emsp;Anotações</a>
 </p>
 
